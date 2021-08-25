@@ -10,3 +10,11 @@ updateButton.addEventListener('click', () => {
     const value = nameInput.value;
     nameValue.textContent = value;
 });
+
+
+const greenButton = document.getElementById('button-green');
+greenButton.addEventListener('click', () => {
+    const tag = document.getElementById('tag');
+    tag.style.background = 'green';
+
+};
