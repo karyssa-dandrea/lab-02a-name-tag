@@ -6,10 +6,12 @@
     border: 1px solid red;
     border-radius: 6px;
     width: 400px;
-    height: 280px;
+    height: 260px;
     margin-bottom: 10px;
     background: red;
     font-family: sans-serif;
+    display: grid;
+    grid-template-rows: 15% 15% 60% 10%;
 }
 
 .name-tag-outer {
@@ -30,16 +32,20 @@ margin: 5px;
 .name-tag p {
     text-align: center;
     background: white;
-    width: 290px;
-    height: 100px;
+    width: 400px;
+    height: 130px;
     font-family: cursive;
     padding: 20px;
-    font-size: 25px;
+    font-size: 40px;
     display: grid;
     place-items: center;
+    margin-bottom: 20px;
+    
     
 }
 
 .name-tag h2 {
     text-align: center;
+    color: white;
 }
+
