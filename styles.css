@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+.name-tag {
+    border: 1px solid red;
+    border-radius: 6px;
+    width: 400px;
+    height: 280px;
+    margin-bottom: 10px;
+    background: red;
+    font-family: sans-serif;
+}
+
+.name-tag-outer {
+  background: lightgray;
+  padding: 10px;
+  width: 415px;
+   
+  
+}
+
+
+.name-tag h1 {
+color:white; 
+text-align: center; 
+margin: 5px;
+}
+
+.name-tag p {
+    text-align: center;
+    background: white;
+    width: 290px;
+    height: 100px;
+    font-family: cursive;
+    padding: 20px;
+    font-size: 25px;
+    display: grid;
+    place-items: center;
+    
+}
+
+.name-tag h2 {
+    text-align: center;
+}
